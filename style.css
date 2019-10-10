@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container{
+	width: 150%;
+	height: 200%;
+	background: #42455a;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 80px;
+	color: #b2b1b1;
+	cursor: pointer;
+	font-size: 20px
+}
+.logo img{
+	width: 120px;
+	margin-top: -7px;
+	margin-right: 48px;
+}
+.active{
+	color: #19dafa !important;
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left: 130px;
+	position: absolute;
+	color: #fff;
+}
+.app-text{
+	width: 50%;
+	float: left;
+}
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+	margin-top:150px;
+}
+.app-text p{
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 40;
+	line-height: 25px;
+	color: #919191;
+}
+.app-picture img{
+	width: 700px;
+	position: absolute;
+	top:-70px;
+	right:-80px;
+}
+.team-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left:500px;
+	margin-top:700px;
+}
+.team-text ul{
+	display: inline-flex;
+	margin: 100px;
+}
+.team-text ul li{
+	list-style: none;
+	margin: 0 100px;
+	cursor: pointer;
+}
+.photo{
+	width: 100px;
+	height: 100px;
+}
+.color{
+	color: #F8F8FF;
+}
+
